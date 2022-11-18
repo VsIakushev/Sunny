@@ -4,18 +4,20 @@
 //
 //  Created by Vitaliy Sergeevich on 16.11.2022.
 //  Copyright © 2022 Vitalii Iakushev. All rights reserved.
-//
+///
 
 import Foundation
 
-struct CurrentWeatherData {
+var test = "git"
+
+struct CurrentWeatherData: Codable {
     let name: String
     let main: Main
     let weather: [Weather]
     
 }
 
-struct Main {
+struct Main: Codable {
     let temp:  Double
     let feelsLike: Double
     
@@ -26,6 +28,6 @@ struct Main {
     }
 }
 
-struct Weather {
+struct Weather: Codable {
     let id: Int
 }
