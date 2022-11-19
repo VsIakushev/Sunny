@@ -2,8 +2,8 @@
 //  CurrentWeather.swift
 //  Sunny
 //
-//  Created by Vitaliy Sergeevich on 17.11.2022.
-//  Copyright © 2022 Ivan Akulov. All rights reserved.
+//  Created by Vitaliy Sergeevich on 16.11.2022.
+//  Copyright © 2022 Vitalii Iakushev. All rights reserved.
 //
 
 import Foundation
